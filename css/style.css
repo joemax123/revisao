@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+}
+body{
+    background-color: rgb(40, 190, 40);
+}
+
+.logo{
+    width: 60px;
+    height: 60px;
+    margin-left: 40px;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+}
+header{
+    background-color: rgb(247, 105, 252);
+    font-size:25px ;
+    border: 2px solid;
+    
+}
+a{
+    color: rgb(48, 46, 48);
+    text-decoration: none;
+    
+}
+
+.link a{
+ margin-left: 50px;
+}
+button{
+    background-color: rgb(228, 236, 104);
+    height: 60px;
+    width: 100px;
+    border-radius: 5px;
+    color: rgb(52, 53, 54);
+    font-size: 16px;
+    margin-right: 40px; 
+}
+
+.bannersection{
+    border: solid black;
+}
+.banner{
+background-image: url(../image/caveira) ;
+background-size:auto;
+width: 3000px;
+height: 550px;
+}
+
+.texto{
+    width: 300px;
+    font-size: 35px;
+    color: white;
+    
+}
+.textbanner{
+    margin-left: 100px;
+    color: red;
+    width: 700px;
+}
+.texto1 p{
+    font-size: 40px;
+}
+.image1{
+    height: 140px;
+    width: 140px;
+    padding: 35px;
+    margin-left: 40px;
+}
+
+.cardimage img:hover{
+    opacity: 0;
+}
+
+.cardimage{
+    background-color: rgb(207, 207, 48);
+    width: 300px;
+    height: 360px;
+    margin-top:50px ;
+    margin-left: 135px;
+}
+
+.cardimage:hover {
+    background-color: green;
+}
+
+.cardimage p{
+    margin-left: 42px;
+    font-size: 20px;
+}
+.deck{
+    display: flex;
+}
+.deckvideo{
+    display: flex;
+}
+
+.cardvideo{
+    background-color: rgb(207, 207, 48);
+    width: 300px;
+    height: 360px;
+    margin-top:50px ;
+    margin-left: 135px; 
+}
+.cardvideo p{
+    margin-left: 42px;
+    font-size: 20px;
+}
+.cardvideo video{
+ margin-left: 80px;
+}
