@@ -1,93 +1,275 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Meu Site</title>
     <link rel="stylesheet" href="../css/style.css">
 </head>
 
 <body>
+
     <header>
+
         <div class="container">
-            <img src="../image/Tung-Tung-Tung-Sahur-PNG-thumb.png" alt="" srcset="" class="logo">
+
+            <img src="../image/Tung-Tung-Tung-Sahur-PNG-thumb.png" class="logo" alt="Logo">
+
             <nav class="link">
-                <a href="">Experiencias</a>
-                <a href="">Projetos</a>
-                <a href="">Sobre</a>
+                <a href="#experiencias">Experiências</a>
+                <a href="#projetos">Projetos</a>
+                <a href="#sobre">Sobre</a>
             </nav>
 
-            <a href=""><button>Contrate=me</button></a>
+            <button id="abrir">Contrate-nos</button>
+
         </div>
 
     </header>
 
     <section class="bannersection">
+
         <div class="banner">
+
             <div class="texto">
-                <br>
-                <p class="textbanner">Texto exemplo Texto exemplo Texto exemplo</p>
+                <p class="textbanner">
+                    José de Alencar é um dos maiores nomes do
+                    Romantismo Brasileiro e da literatura nacional.
+                    Suas obras retratam a busca pela identidade do
+                    país por meio do indianismo, do sertão e da cidade.
+                </p>
             </div>
+
         </div>
 
     </section>
-    <br><br>
-    <br><br>
-    <section>
-        <h1>Card informativo</h1>
+
+    <section id="experiencias">
+
+        <h1>Card Informativo</h1>
+
         <div class="deck">
 
             <div class="cardimage">
                 <img src="../image/livro.jpg" class="image1" alt="">
-                <p>Criar repositorio revisao</p>
-            </div>
-            <div class="cardimage">
-                <img src="../image/livro.jpg" class="image1" alt="">
-                <p>Criar repositorio revisao</p>
-            </div>
-            <div class="cardimage">
-                <img src="../image/livro.jpg" class="image1" alt="">
-                <p>Criar repositorio revisao</p>
-            </div>
-            <div class="cardimage">
-                <img src="../image/livro.jpg" class="image1" alt="">
-                <p>Criar repositorio revisao</p>
+                <p>Criar um repositorio: Revisão</p>
             </div>
 
+            <div class="cardimage">
+                <img src="../image/livro.jpg" class="image1" alt="">
+                <p>Criar um repositorio: Revisão</p>
+            </div>
 
+            <div class="cardimage">
+                <img src="../image/livro.jpg" class="image1" alt="">
+                <p>Criar um repositorio: Revisão</p>
+            </div>
+
+            <div class="cardimage">
+                <img src="../image/livro.jpg" class="image1" alt="">
+                <p>Criar um repositorio: Revisão</p>
+            </div>
 
         </div>
-        <h1>Videos</h1>
+
+        <h1>Vídeos</h1>
+
         <div class="deckvideo">
 
             <div class="cardvideo">
                 <video width="140" height="140" controls>
-                    <source src="../video/Goku transformándose en una estufa.mp4" type="">
+                    <source src="../video/Goku transformándose en una estufa.mp4" type="video/mp4">
                 </video>
-                <p>Criar repositorio revisao</p>
+                <p>Criar um repositorio: Revisão</p>
             </div>
+
             <div class="cardvideo">
                 <video width="140" height="140" controls>
-                    <source src="../video/Goku transformándose en una estufa.mp4" type="">
+                    <source src="../video/Goku transformándose en una estufa.mp4" type="video/mp4">
                 </video>
-                <p>Criar repositorio revisao</p>
+                <p>Criar um repositorio: Revisão</p>
             </div>
+
             <div class="cardvideo">
                 <video width="140" height="140" controls>
-                    <source src="../video/Goku transformándose en una estufa.mp4" type="">
+                    <source src="../video/Goku transformándose en una estufa.mp4" type="video/mp4">
                 </video>
-                <p>Criar repositorio revisao</p>
+                <p>Criar um repositorio: Revisão</p>
             </div>
+
             <div class="cardvideo">
                 <video width="140" height="140" controls>
-                    <source src="../video/Goku transformándose en una estufa.mp4" type="">
+                    <source src="../video/Goku transformándose en una estufa.mp4" type="video/mp4">
                 </video>
-                <p>Criar repositorio revisao</p>
+                <p>Criar um repositorio: Revisão</p>
             </div>
 
         </div>
+
+        <section id="projetos">
+
+            <h1>Galeria de Projetos</h1>
+
+            <div class="filtros">
+
+                <button class="filtro" data-categoria="todos">Todos</button>
+                <button class="filtro" data-categoria="romances">Romances</button>
+                <button class="filtro" data-categoria="biografia">Biografia</button>
+                <button class="filtro" data-categoria="poesia">Poesia</button>
+
+            </div>
+
+            <div class="projetos">
+
+                <div class="projeto" data-categoria="romances">
+                    <img src="../image/livro.jpg" alt="">
+                    <p>A Lenda de Iracema</p>
+                    <span>O Berço do Ceará</span>
+                </div>
+
+                <div class="projeto" data-categoria="biografia">
+                    <img src="../image/livro.jpg" alt="">
+                    <p>O Estadista Alencar</p>
+                    <span>Sua Atuação Política</span>
+                </div>
+
+                <div class="projeto" data-categoria="poesia">
+                    <img src="../image/livro.jpg" alt="">
+                    <p>Lira da Mocidade</p>
+                    <span>Poesias Escolhidas</span>
+                </div>
+
+                <div class="projeto" data-categoria="romances">
+                    <img src="../image/livro.jpg" alt="">
+                    <p>O Guarani</p>
+                    <span>Romance Brasileiro</span>
+                </div>
+
+            </div>
+
+        </section>
+
+        <section class="faq">
+
+            <h1>FAQ - Perguntas Frequentes</h1>
+
+            <div class="pergunta">
+
+                <button class="faqbotao">
+                    Como solicitar uma revisão de repositorio?
+
+                </button>
+
+                <div class="resposta">
+                    <p>
+                        Para solicitar uma revisão, entre em contato conosco
+                        através do formulário de contato.
+                    </p>
+                </div>
+
+            </div>
+
+            <div class="pergunta">
+
+                <button class="faqbotao">
+                    Quais obras de José de Alencar estão disponíveis?
+                    
+                </button>
+
+                <div class="resposta">
+                    <p>
+                        Temos romances, poesias e outras obras relacionadas
+                        a José de Alencar.
+                    </p>
+                </div>
+
+            </div>
+
+            <div class="pergunta">
+
+                <button class="faqbotao">
+                    Como é feita a padronização textual?
+    
+                </button>
+
+                <div class="resposta">
+                    <p>
+                        A padronização é feita seguindo os critérios definidos
+                        para cada projeto.
+                    </p>
+                </div>
+
+            </div>
+
+        </section>
+
     </section>
+
+    <footer id="sobre">
+
+        <div class="footer">
+
+            <div>
+                <h2>REPOSITÓRIO ALENCAR</h2>
+                <p>Literatura e cultura brasileira.</p>
+            </div>
+
+            <div>
+                <h3>Navegação Rápida</h3>
+                <p>Experiências</p>
+                <p>Projetos</p>
+                <p>Sobre</p>
+            </div>
+
+            <div>
+                <h3>Explorar</h3>
+                <p>Projetos</p>
+                <p>Galeria</p>
+                <p>FAQ</p>
+            </div>
+
+            <div>
+                <h3>Legal</h3>
+                <p>Termos de Uso</p>
+                <p>Política de Privacidade</p>
+            </div>
+
+            <div>
+                <h3>Contato</h3>
+                <p>contato@repositorio.com</p>
+                <p>40028922</p>
+            </div>
+
+        </div>
+
+    </footer>
+
+    <div id="modal">
+
+        <div class="modalconteudo">
+
+            <button id="fechar">X</button>
+
+            <h2>FALE CONOSCO</h2>
+
+            <label>Nome</label>
+            <input type="text">
+
+            <label>E-mail</label>
+            <input type="email">
+
+            <label>Assunto</label>
+            <input type="text">
+
+            <label>Mensagem</label>
+            <textarea></textarea>
+
+            <button class="enviar">ENVIAR</button>
+
+        </div>
+
+    </div>
 </body>
 
 </html>
